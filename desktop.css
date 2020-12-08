@@ -1,0 +1,134 @@
+header img{
+  height:36px;
+  width: 36px;
+}
+.nav-menu{
+  display: flex;
+
+}
+.mobile-menu{
+  display: flex;
+}
+.mobile-menu ul li{
+  color: #060A24;
+}
+.mobile-menu a{
+  text-decoration: none;
+}
+.label-menu{
+  display: none;
+}
+
+header .nav-menu{
+display: flex;
+}
+/*seccionA*/
+
+.seccionA {
+  margin-left: 100px;
+  width: 100%;
+}
+br{
+  display: none;
+}
+.seccionA p{
+  font-size: 16px;
+  width: 628px;
+  height: 48px;
+}
+
+h1{
+  font-size: 64px;
+}
+.boton-conocemas{
+  height: 56px;
+  width: 226px;
+}
+/*seccionb*/
+
+.seccionb{
+  height: 900px;
+}
+
+.los-podcast{
+  margin-top: 20px;
+  height: 700px;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows:  auto auto;
+  gap: 5px;
+}
+/*seccionC*/
+h2{
+  font-size: 36px;
+}
+
+.seccionC{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  position:absolute;
+  top: 60rem;
+}
+
+.seccionC img{
+  width: 460px;
+  height: 660px;
+  position: initial;
+}
+.texto-c{
+  width: 464px;
+  height: auto;
+  font-size: 16px;
+}
+/*seccionD*/
+
+.seccionD{
+  margin-top:35rem;
+}
+.bloque-img{
+   display:flex;
+  flex-flow:row wrap;
+}
+.seccionD img{
+  width: 33%;
+  height: auto;
+}
+/*seccionE*/
+.seccionE p{
+  font-size: 24px;
+}
+
+.bloque-icono{
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+}
+.icono-individual{
+  width: 25%;
+  display: flex;
+  align-items: center;
+flex-direction: column;
+}
+
+/*footer*/
+footer{
+  width: 100%;
+}
+  
+.footer-desktop{
+  display: flex;
+  justify-content: space-around;
+}
+
+.marcas {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+

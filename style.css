@@ -1,0 +1,271 @@
+*{
+  box-sizing: border-box;
+}
+/*header*/
+
+header{
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.nav-menu{
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+
+}
+.nav-menu li{
+  list-style:none;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.checkbox{
+  display: none;
+}
+
+#nav-mobile:checked ~  .mobile-menu{
+  display: block;
+  position: absolute;
+  top: 10vh;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  animation-name:mobile-sidebar;
+  animation-duration: 0.75s; 
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  }
+
+.mobile-menu{
+  display: none;
+}
+
+#nav-mobile{
+  display: none;
+}
+
+h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+/*main*/
+
+main{
+  width: 100%;
+  height: auto;
+}
+
+/*seccionA*/
+
+.seccionA{
+  width: 100%;
+  height: auto;
+  
+}
+
+.seccionA h1{
+padding: 8px;
+}
+
+.seccionA p{
+  padding: 8px;
+  width: 288px;
+  height: 68px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #000000;
+}
+
+.boton-conocemas{
+  margin-left: 5px;
+  background-color: #00F3BB;
+  width:288px;
+  height: 48;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 20px;
+  border: none;
+}
+.boton-conocemas:hover{
+background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.logo{
+  width: 24px;
+  height: 24px;
+}
+/*seccionB*/
+
+.seccionB{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+
+.podcast{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.seccionb p{
+  margin-top: 80px;
+  color:#ffffff;
+   font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 42px;
+
+}
+/*seccionC*/
+
+
+.seccionC h2{
+  margin-top: 450px;
+  width: 144px;
+  height:84px ; 
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 32px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+.seccionc img{
+  width:100%;
+  height: 519px;
+  position:absolute;
+  top: 80rem;
+}
+
+.seccionC p{
+  width: 100%;
+  height: 254px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+
+}
+h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+/*seccionD*/
+
+h4{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+
+.seccionD img {
+  width: 100%;
+  height: 243px;
+  display: flex;
+}
+/*seccionE*/
+
+.seccionE{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccionE p{
+  width: 100%;
+  height:50px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+.seccione img {
+  width: 104px;
+  height: 104px;
+ 
+}
+.bloque-icono{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/*seccionF*/
+
+.seccionf {
+  width: 100%;
+  height: 340px;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 13%, 100% 0, 99% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h5{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+}
+
+.boton-escucha{
+  background: #00F3BB;
+  width: 288px;
+  height: 48px;
+  border: none;
+}
+.boton-escucha:hover{
+background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+/*footer*/
+
+footer{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+footer p{
+  margin-left:60px;
+
+}
+.marcas{
+  display:flex;
+  justify-content: space-around;
+  
+  
+}
+
+
