@@ -119,21 +119,26 @@ background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
 .podcast{
+  margin-top: 30px;
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
 
-.seccionb p{
-  margin-top: 80px;
+.seccionB p{
+  margin-top:70px;
   color:#ffffff;
-   font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 36px;
   letter-spacing: 0;
   line-height: 42px;
 
 }
 /*seccionC*/
+.seccionc{
+  position:absolute;
+  top: 78rem;
+}
 
 
 .seccionC h2{
@@ -146,11 +151,13 @@ background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   letter-spacing: 0;
   line-height: 42px;
 }
-.seccionc img{
-  width:100%;
+.seccionC img{
+  width:360px;
   height: 519px;
   position:absolute;
-  top: 80rem;
+  top: 78rem;
+  
+ 
 }
 
 .seccionC p{
@@ -219,11 +226,11 @@ h4{
 }
 /*seccionF*/
 
-.seccionf {
+.seccionF {
   width: 100%;
-  height: 340px;
-  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  clip-path: polygon(0 13%, 100% 0, 99% 100%, 0% 100%);
+  height: auto;
+  clip-path: polygon(0 16%, 100% 0, 100% 100%, 0 100%);
+  background-image:linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,6 +247,9 @@ h5{
 }
 
 .boton-escucha{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom:10px;
   background: #00F3BB;
   width: 288px;
   height: 48px;
