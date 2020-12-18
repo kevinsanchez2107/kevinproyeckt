@@ -39,16 +39,16 @@
 <body>
     <header>
           <div class="nav-mobile">
-          <img src="/iconos/logo.svg" alt="logo podcast">
+          <img src="./iconos/logo.svg" alt="logo podcast">
           </div>
           <input type="checkbox" id="nav-mobile" class="checkbox">
           <label for="nav-mobile" class="label-menu"><i class="fas fa-bars"></i> </label>
           <div class="mobile-menu">
             <ul class="nav-menu">
-              <a href="#episodios"> <li>EPISODIOS</li></a>
-              <a href="#nosotros"> <li> NOSOTROS</li></a>
-              <a href="#entrevistas"> <li>ENTREVISTAS</li></a>
-              <a href="#topicos"> <li>TOPICOS</li></a>
+              <li><a href="#episodios"><p>EPISODIOS</p></a></li>
+              <li><a href="#nosotros"><p>NOSOTROS</p></a></li>
+              <li><a href="#entrevistas"><p>ENTREVISTAS</p></a></li>
+              <li><a href="#topicos"><p>TOPICOS</p></a></li>
             </ul>
           </div>
     </header>
@@ -60,7 +60,8 @@
         <button class="boton-conocemas">CONOCÉ MÁS</button>
         </section>
         <section class="seccionB">
-          <a name="episodios"><p>EPISODIOS</p></a>
+
+          <div class="episodios" id=episodios><p>EPISODIOS</p></div>
            <div class="los-podcast">
                 <div class="podcast">
                      <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"></iframe>
@@ -79,10 +80,10 @@
         </section>
         <section class="seccionC">
           <div class="phone">
-          <img src="/imagenes/phone.png" alt="phone">
+          <img src="./imagenes/phone.png" alt="phone">
           </div>
         <div class="texto-c">
-          <a name="nosotros"><h2>De dónde venimos</h2></a>
+          <div class="nosotros"id="nosotros"><h2>De dónde venimos</h2></div>
           <p>Our posturings, our imagined self importance, the delusion that we have some privileged posting in the universe, are challenged by this point of pale light.
           <br>
           <br>
@@ -91,33 +92,33 @@
         </div>
         </section>
         <section class="seccionD">
-        <a name="entrevistas"> <h3>Invitadas/os estelares</h3></a>
+        <div class="entrevistas"id="entrevistas"><h3>Invitadas/os estelares</h3></div>
         <div class="bloque-img">
-          <img src="/imagenes/grace-hopper.png" alt="grace-hooper">
-          <img src="/imagenes/Katie-Bouman.png" alt="katie-bouman">
-          <img src="/imagenes/Margaret_Hamilton.png" alt="margaret-hamilton">
-          <img src="/imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" alt="1950computer">
-          <img src="/imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="computer-operator">
-          <img src="/imagenes/susan-kare.png" alt="susan-kare">
+          <img src="./imagenes/gracehopper.png" alt="grace-hooper">
+          <img src="./imagenes/KatieBouman.png" alt="katie-bouman">
+          <img src="./imagenes/Margaret_Hamilton.png" alt="margaret-hamilton">
+          <img src="./imagenes/AnE.R.A.Univac1103computerinthe1950s.png" alt="1950computer">
+          <img src="./imagenes/ComputeroperatorswithanEniactheworld’sfirstprogrammablegeneralpurposecomputer.png" alt="computer-operator">
+          <img src="./imagenes/susankare.png" alt="susan-kare">
         </div>
         </section>
         <section class="seccionE">
-          <a name="topicos"><h4> Algunos de nuestros lemas</h4></a>
+          <div class="topicos" id="topicos"><h4> Algunos de nuestros lemas</h4></div>
       <div class="bloque-icono">
         <div class="icono-individual">
-          <img src="/iconos/icon1.svg" alt="trabajo">
+          <img src="./iconos/icon1.svg" alt="trabajo">
           <p>Trabajo remoto</p>
           </div>
           <div class="icono-individual">
-          <img src="/iconos/icon2.svg" alt="repensando">
+          <img src="./iconos/icon2.svg" alt="repensando">
           <p>Repensando la programación</p>
           </div>
           <div class="icono-individual">
-          <img src="/iconos/icon3.svg" alt="bases">
+          <img src="./iconos/icon3.svg" alt="bases">
           <p>Bases del código</p>
         </div>
           <div class="icono-individual">
-          <img src="/iconos/icon4.svg" alt="seguridad">
+          <img src="./iconos/icon4.svg" alt="seguridad">
           <p>Seguridad informática</p>
           </div>
           </div>
@@ -139,8 +140,5 @@
             </div>
           </div>
           </footer>
-         </header>
-  
-  
 </body>
 </html>

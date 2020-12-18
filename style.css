@@ -18,15 +18,23 @@ header{
   align-items: center;
 
 }
-.nav-menu li{
+.nav-menu li p{
   list-style:none;
   font-size: 16px;
-  color: white;
+  color:white;
   letter-spacing: 0;
   line-height: 28px;
   text-decoration: none;
   padding: 10px;
 }
+ul{
+  list-style:none;
+  text-decoration: line-through;
+}
+li a:hover{
+  color:#00F3BB
+}
+
 
 .checkbox{
   display: none;

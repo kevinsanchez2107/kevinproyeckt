@@ -4,8 +4,11 @@ header img{
 }
 .nav-menu{
   display: flex;
-
 }
+.nav-menu li p{
+  color:blue;
+}
+
 .mobile-menu{
   display: flex;
 }
@@ -22,6 +25,7 @@ header img{
 header .nav-menu{
 display: flex;
 }
+
 /*seccionA*/
 
 .seccionA {
